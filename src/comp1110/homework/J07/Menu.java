@@ -37,21 +37,18 @@ public class Menu {
         System.out.println("2 to find the maximum score");
         System.out.println("3 to find the second highest score");
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter the number:");
         int number = in.nextInt();
-        System.out.print("Enter the size of students: ");
         int numOfStudents = in.nextInt();
         int arrayOfGrades[] = new int[numOfStudents];
         for (int i = 0; i < arrayOfGrades.length; i++) {
-            System.out.print("Enter the student" + (i + 1) + " grade: ");
             arrayOfGrades[i] = in.nextInt();
         }
         if (number == 1) {
-            System.out.println("The range of the scores is "+findRange(arrayOfGrades));
+            System.out.println(findRange(arrayOfGrades));
         }else if (number == 2) {
-            System.out.println("The maximum score is "+getMax(arrayOfGrades));
+            System.out.println(getMax(arrayOfGrades));
         }else if (number == 3) {
-            System.out.println("The second highest score is "+ getSecondHighest(arrayOfGrades));
+            System.out.println(getSecondHighest(arrayOfGrades));
         }else {
             System.out.println("Invalid Option Selected");
         }
