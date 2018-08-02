@@ -6,6 +6,7 @@
     <JAVADOC />
     <SOURCES>
       <root url="file://$PROJECT_DIR$/src" />
+      <root url="file://$PROJECT_DIR$/src/comp1110/homework/O01" />
     </SOURCES>
   </library>
 </component>
