@@ -13,7 +13,7 @@ public class Permute {
                 if (str2.indexOf(str0)!=-1){
                     code++;
                 }else {
-                    System.out.println("NO");
+                    System.out.println("No");
                     break;
                 }
             }
