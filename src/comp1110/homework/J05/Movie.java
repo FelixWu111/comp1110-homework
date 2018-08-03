@@ -10,21 +10,21 @@ public class Movie {
         int minites = time % 60;
         int hour = (time - minites) / 60;
         if (hour == 1 && minites != 0) {
-            System.out.println("Finding " + name + " runs for " + hour + " hour and " + minites + " minutes");}
+            System.out.println(name + " runs for " + hour + " hour and " + minites + " minutes");}
         else if (hour == 1 && minites ==1) {
-            System.out.println("Finding " + name + " runs for " + hour + " hour and " + minites + " minute");}
+            System.out.println(name + " runs for " + hour + " hour and " + minites + " minute");}
         else if (hour == 1 && minites == 0) {
-            System.out.println("Finding " + name + " runs for " + hour + " hour");}
+            System.out.println(name + " runs for " + hour + " hour");}
         else if (hour < 1 && minites == 1)  {
-            System.out.println("Finding " + name + " runs for " + minites + " minute");}
+            System.out.println(name + " runs for " + minites + " minute");}
         else if (hour < 1 ) {
-            System.out.println("Finding " + name + " runs for " + minites + " minutes");}
+            System.out.println(name + " runs for " + minites + " minutes");}
         else if (hour > 1 && minites != 0) {
-            System.out.println("Finding " + name + " runs for " + hour + " hours and " + minites + " minutes");}
+            System.out.println(name + " runs for " + hour + " hours and " + minites + " minutes");}
         else if (hour > 1 && minites == 1) {
-            System.out.println("Finding " + name + " runs for " + hour + " hours and " + minites + " minute");}
+            System.out.println(name + " runs for " + hour + " hours and " + minites + " minute");}
         else if (hour > 1 && minites == 0) {
-            System.out.println("Finding " + name + " runs for " + hour + " hours");}
+            System.out.println(name + " runs for " + hour + " hours");}
 
     }
 
