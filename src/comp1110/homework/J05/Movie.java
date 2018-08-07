@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Movie {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        String name = in.next();
+        String name = in.nextLine();
         int time = in.nextInt();
         int minites = time % 60;
         int hour = (time - minites) / 60;
